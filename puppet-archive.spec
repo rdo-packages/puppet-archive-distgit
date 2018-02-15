@@ -1,14 +1,18 @@
-%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
+%{!?upstream_version: %global upstream_version %{commit}}
+%global commit 10888dbf9c5b99fd11cd495ea9e46a232bf858a8
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+# DO NOT REMOVE ALPHATAG
+%global alphatag .%{shortcommit}git
 
 Name:                   puppet-archive
-Version:                XXX
-Release:                XXX
+Version:                2.2.1
+Release:                0%{?alphatag}%{?dist}
 Summary:                Compressed archive file download and extraction with native types/providers for Windows and Unix
 License:                ASL 2.0
 
 URL:                    https://github.com/voxpupuli/puppet-archive
 
-Source0:                https://github.com/voxpupuli/puppet-archive/archive/%{version}.tar.gz
+Source0:                https://github.com/voxpupuli/%{name}/archive/%{commit}.tar.gz#/%{name}-%{shortcommit}.tar.gz
 
 BuildArch:              noarch
 
@@ -43,3 +47,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/archive/
 %{_datadir}/openstack-puppet/modules/archive/
 
 %changelog
+* Thu Feb 15 2018 Haïkel Guémar <hguemar@fedoraproject.org> - 2.2.1-0.10888db.git
+- Update to 2.2.1-rc0 (10888dbf9c5b99fd11cd495ea9e46a232bf858a8)
+
