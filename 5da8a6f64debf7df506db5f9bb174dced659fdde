@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_de9dbf5a",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-08-14T14:42:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_be956b41",
+      "revId": "5da8a6f64debf7df506db5f9bb174dced659fdde",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_7e9fd35f",
         "filename": "puppet-archive.spec",
         "patchSetId": 1
@@ -42,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "9abe1de1_bea32b9e",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-08-14T14:42:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_7e9fd35f",
+      "range": {
+        "startLine": 5,
+        "startChar": 24,
+        "endLine": 5,
+        "endChar": 25
+      },
+      "revId": "5da8a6f64debf7df506db5f9bb174dced659fdde",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9abe1de1_9e92a756",
         "filename": "puppet-archive.spec",
         "patchSetId": 1
@@ -53,6 +95,30 @@
       "writtenOn": "2018-08-14T14:19:44Z",
       "side": 1,
       "message": "also need to update source0 https://github.com/rdo-packages/puppet-archive-distgit/blob/queens-rdo/puppet-archive.spec#L15",
+      "range": {
+        "startLine": 11,
+        "startChar": 24,
+        "endLine": 11,
+        "endChar": 93
+      },
+      "revId": "5da8a6f64debf7df506db5f9bb174dced659fdde",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_9ea06792",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-08-14T14:42:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9abe1de1_9e92a756",
       "range": {
         "startLine": 11,
         "startChar": 24,
