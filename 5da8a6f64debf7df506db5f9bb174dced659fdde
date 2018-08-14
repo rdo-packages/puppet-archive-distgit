@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_be956b41",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-08-14T14:19:44Z",
+      "side": 1,
+      "message": "It\u0027s missing all macros used for commit based snaps:\n\nhttps://github.com/rdo-packages/puppet-archive-distgit/blob/queens-rdo/puppet-archive.spec#L1-L5",
+      "revId": "5da8a6f64debf7df506db5f9bb174dced659fdde",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_7e9fd35f",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-08-14T14:19:44Z",
+      "side": 1,
+      "message": "As this is rc0, technically, this should be 0.1.%{alphatag}%{dist}",
+      "range": {
+        "startLine": 5,
+        "startChar": 24,
+        "endLine": 5,
+        "endChar": 25
+      },
+      "revId": "5da8a6f64debf7df506db5f9bb174dced659fdde",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_9e92a756",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-08-14T14:19:44Z",
+      "side": 1,
+      "message": "also need to update source0 https://github.com/rdo-packages/puppet-archive-distgit/blob/queens-rdo/puppet-archive.spec#L15",
+      "range": {
+        "startLine": 11,
+        "startChar": 24,
+        "endLine": 11,
+        "endChar": 93
+      },
+      "revId": "5da8a6f64debf7df506db5f9bb174dced659fdde",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
