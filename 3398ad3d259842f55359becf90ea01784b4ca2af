@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "80abc5e8_48d18e01",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2019-10-03T09:23:38Z",
+      "side": 1,
+      "message": "There is no tag for 4.2.1-rc0 so need to do snapshot build.",
+      "revId": "3398ad3d259842f55359becf90ea01784b4ca2af",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
