@@ -1,8 +1,9 @@
+%global milestone .0rc0
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-archive
-Version:                XXX
-Release:                XXX
+Version:                4.2.1
+Release:                0.1%{?milestone}%{?dist}
 Summary:                Compressed archive file download and extraction with native types/providers for Windows and Unix
 License:                ASL 2.0
 
@@ -43,3 +44,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/archive/
 %{_datadir}/openstack-puppet/modules/archive/
 
 %changelog
+* Thu Oct 3 2019 RDO <dev@lists.rdoproject.org> 4.2.1-0.1.0rc0
+- Update to 4.2.1-rc0
+
