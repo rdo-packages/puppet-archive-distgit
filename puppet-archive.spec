@@ -50,3 +50,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/archive/
 * Thu Oct 3 2019 RDO <dev@lists.rdoproject.org> 4.2.1-1.0538163git
 - Update to post 4.2.0 (053816361ea7104711f3927431d0d8264ab41835)
 
+
