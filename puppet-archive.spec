@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-archive
-Version:                XXX
-Release:                XXX
+Version:                4.5.0
+Release:                1%{?alphatag}%{?dist}
 Summary:                Compressed archive file download and extraction with native types/providers for Windows and Unix
 License:                ASL 2.0
 
 URL:                    https://github.com/voxpupuli/puppet-archive
 
-Source0:                https://github.com/voxpupuli/puppet-archive/archive/%{version}.tar.gz
+Source0:                https://github.com/voxpupuli/puppet-archive/archive/v%{version}.tar.gz
 
 BuildArch:              noarch
 
@@ -43,3 +43,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/archive/
 %{_datadir}/openstack-puppet/modules/archive/
 
 %changelog
+* Mon May 04 2020 RDO <dev@lists.rdoproject.org> 4.5.0-1.474ea01git
+- Update to post 4.5.0 (474ea0123e6372724d75dc8a4da09ef40a815df7)
+
