@@ -8,7 +8,7 @@ License:                ASL 2.0
 
 URL:                    https://github.com/voxpupuli/puppet-archive
 
-Source0:                https://github.com/voxpupuli/puppet-archive/archive/%{version}.tar.gz
+Source0:                https://github.com/voxpupuli/puppet-archive/archive/v%{version}.tar.gz
 
 BuildArch:              noarch
 
