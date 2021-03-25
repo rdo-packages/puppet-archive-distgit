@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0b8bb49b_be3b6077",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-03-25T14:39:10Z",
+      "side": 1,
+      "message": "j extra",
+      "range": {
+        "startLine": 6,
+        "startChar": 35,
+        "endLine": 6,
+        "endChar": 36
+      },
+      "revId": "3f50c1284546a8324a9397adc3785626a4b133ba",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "506558ee_ebc0b2d5",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-03-25T14:39:10Z",
+      "side": 1,
+      "message": "duplicating with line 2, it can be removed",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 71
+      },
+      "revId": "3f50c1284546a8324a9397adc3785626a4b133ba",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a971319b_3dfd2392",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-03-25T14:39:10Z",
+      "side": 1,
+      "message": "can use upstream_version instead of commit",
+      "range": {
+        "startLine": 17,
+        "startChar": 78,
+        "endLine": 17,
+        "endChar": 84
+      },
+      "revId": "3f50c1284546a8324a9397adc3785626a4b133ba",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "73671ea7_4179c71e",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-03-25T14:39:10Z",
+      "side": 1,
+      "message": "not defined can use name",
+      "range": {
+        "startLine": 17,
+        "startChar": 100,
+        "endLine": 17,
+        "endChar": 109
+      },
+      "revId": "3f50c1284546a8324a9397adc3785626a4b133ba",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
