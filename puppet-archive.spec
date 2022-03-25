@@ -1,14 +1,21 @@
+%global milestone .0rc0
+%{!?upstream_version: %global upstream_version %{commit}}
+%global commit c49aa3e2ae7585af9520912512c3a51506fe787e
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+# DO NOT REMOVE ALPHATAG
+%global alphatag .%{shortcommit}git
+
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-archive
-Version:                XXX
-Release:                XXX
+Version:                6.0.3
+Release:                0.1%{?milestone}%{?alphatag}%{?dist}
 Summary:                Compressed archive file download and extraction with native types/providers for Windows and Unix
 License:                ASL 2.0
 
 URL:                    https://github.com/voxpupuli/puppet-archive
 
-Source0:                https://github.com/voxpupuli/puppet-archive/archive/v%{version}.tar.gz
+Source0:                https://github.com/voxpupuli/puppet-archive/archive/%{commit}.tar.gz#/%{name}-%{shortcommit}.tar.gz
 
 BuildArch:              noarch
 
@@ -43,3 +50,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/archive/
 %{_datadir}/openstack-puppet/modules/archive/
 
 %changelog
+* Fri Mar 25 2022 RDO <dev@lists.rdoproject.org> 6.0.3-0.1.0rc0.c49aa3egit
+- Update to post 6.0.3-rc0 (c49aa3e2ae7585af9520912512c3a51506fe787e)
+
