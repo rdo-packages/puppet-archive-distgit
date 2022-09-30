@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7dd4f30d_717d1a09",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-09-30T09:20:31Z",
+      "side": 1,
+      "message": "We have pinned to commit 1a0ef7a5972a74adc7809894ac94b5ed9b02d219 which is actually post 6.0.2 tag so we should build it as a 6.0.3 pre-release as we did in yoga:\n\nhttps://review.rdoproject.org/r/c/puppet/puppet-archive-distgit/+/40972\n\n",
+      "revId": "4c7d7828a5faf9992dcb1036c4b79123d4c111be",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
