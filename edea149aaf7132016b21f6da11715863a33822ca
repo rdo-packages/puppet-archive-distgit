@@ -18,6 +18,24 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "71f16e21_1fe9a034",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-09-30T11:18:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "47866480_7c1efcd9",
+      "revId": "edea149aaf7132016b21f6da11715863a33822ca",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a750ec6a_f7bb3f56",
@@ -31,6 +49,30 @@
       "writtenOn": "2022-09-30T10:19:24Z",
       "side": 1,
       "message": "This needs to be pre-release v-r. According to fedora and rdo policy this should be:\n\nVersion:                6.0.3\nRelease:                0.2%{?milestone}%{?alphatag}%{?dist}\n\nThere is already a puppet-archive-6.0.3-0.1.0rc0.c49aa3egit.el9s from yoga so we need to update to 0.2.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 37
+      },
+      "revId": "edea149aaf7132016b21f6da11715863a33822ca",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "123b706f_f018efff",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-09-30T11:18:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a750ec6a_f7bb3f56",
       "range": {
         "startLine": 4,
         "startChar": 0,
@@ -64,6 +106,30 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a466fee0_52ca4416",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-09-30T11:18:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3279c292_da667fd5",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 1
+      },
+      "revId": "edea149aaf7132016b21f6da11715863a33822ca",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d77f75b6_9465ad1c",
@@ -77,6 +143,30 @@
       "writtenOn": "2022-09-30T10:19:24Z",
       "side": 1,
       "message": "6.03-0.2.0rc0.1a0ef7agit",
+      "range": {
+        "startLine": 46,
+        "startChar": 49,
+        "endLine": 46,
+        "endChar": 71
+      },
+      "revId": "edea149aaf7132016b21f6da11715863a33822ca",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67090acf_12a5e524",
+        "filename": "puppet-archive.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 757
+      },
+      "writtenOn": "2022-09-30T11:18:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d77f75b6_9465ad1c",
       "range": {
         "startLine": 46,
         "startChar": 49,
