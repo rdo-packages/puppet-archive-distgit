@@ -1,8 +1,8 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-archive
-Version:                XXX
-Release:                XXX
+Version:        6.0.3-rc0
+Release:        1%{?alphatag}%{?dist}
 Summary:                Compressed archive file download and extraction with native types/providers for Windows and Unix
 License:                ASL 2.0
 
@@ -43,3 +43,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/archive/
 %{_datadir}/openstack-puppet/modules/archive/
 
 %changelog
+* Fri Sep 30 2022 RDO <dev@lists.rdoproject.org> 6.0.3-rc0-1.1a0ef7agit
+- Update to post 6.0.3-rc0 (1a0ef7a5972a74adc7809894ac94b5ed9b02d219)
+
